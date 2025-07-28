@@ -4,9 +4,35 @@
   "name": "Your Docs",
   "colors": {
     "primary": "#ff0000"
-  },
-  "navigation": {
-    // Your navigation structure
-  }
-  // The rest of your configuration
+ "navigation": {
+  "Getting Started": [
+    {
+      "title": "Introduction",
+      "url": "/"
+    },
+    {
+      "title": "Installation Guide",
+      "url": "/installation"
+    }
+  ],
+  "Features": [
+    {
+      "title": "User Authentication",
+      "url": "/features/auth"
+    },
+    {
+      "title": "Dashboard Overview",
+      "url": "/features/dashboard"
+    }
+  ],
+  "API Reference": [
+    {
+      "title": "Endpoints",
+      "url": "/api/endpoints"
+    },
+    {
+      "title": "Authentication",
+      "url": "/api/auth"
+    }
+  ]
 }
