@@ -1,0 +1,30 @@
+.text-container {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+}
+
+.page-number {
+  text-align: left;
+  font-size: 0.9em;
+  margin-bottom: 1em;
+}
+
+.agreement-title {
+  font-size: 1.4em;
+  margin: 0.5em 0;
+}
+
+.agreement-subtitle {
+  font-size: 1em;
+  font-style: italic;
+  margin-bottom: 1.5em;
+}
+
+.office-info p {
+  margin: 0.5em 0;
+}
+
+.office-info strong {
+  display: inline-block;
+  width: 200px; /* adjust as needed */
+}
