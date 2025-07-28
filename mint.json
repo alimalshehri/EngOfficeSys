@@ -1,0 +1,11 @@
+{
+  "name": "EngSystem Documentation",
+  "repo": "alimalshehri/EngOfficeSys",
+  "integrations": {
+    "github": true
+  },
+  "branding": {
+    "logo": "/logo.png",
+    "primaryColor": "#2C3E50"
+  }
+}
