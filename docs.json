@@ -1,0 +1,20 @@
+{
+  "sidebar": [
+    {
+      "label": "مقدمة",
+      "path": "/intro"
+    },
+    {
+      "label": "الإعداد",
+      "path": "/setup"
+    },
+    {
+      "label": "الميزات",
+      "path": "/features"
+    },
+    {
+      "label": "الأسئلة الشائعة",
+      "path": "/faq"
+    }
+  ]
+}
