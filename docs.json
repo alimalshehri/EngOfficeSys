@@ -4,35 +4,41 @@
   "name": "Your Docs",
   "colors": {
     "primary": "#ff0000"
- "navigation": {
-  "Getting Started": [
-    {
-      "title": "Introduction",
-      "url": "/"
-    },
-    {
-      "title": "Installation Guide",
-      "url": "/installation"
-    }
-  ],
-  "Features": [
-    {
-      "title": "User Authentication",
-      "url": "/features/auth"
-    },
-    {
-      "title": "Dashboard Overview",
-      "url": "/features/dashboard"
-    }
-  ],
-  "API Reference": [
-    {
-      "title": "Endpoints",
-      "url": "/api/endpoints"
-    },
-    {
-      "title": "Authentication",
-      "url": "/api/auth"
-    }
-  ]
+  },
+  "navigation": {
+    "languages": [
+      { "label": "English", "code": "en" },
+      { "label": "العربية", "code": "ar" }
+    ],
+    "versions": [
+      { "label": "v1.0", "url": "/v1.0" },
+      { "label": "v2.0", "url": "/v2.0" }
+    ],
+    "dropdowns": [
+      {
+        "dropdown": "Tutorials",
+        "icon": "book",
+        "groups": [
+          {
+            "group": "Beginner",
+            "pages": [
+              "tutorials/setup",
+              "tutorials/hello-world"
+            ]
+          },
+          {
+            "group": "Advanced",
+            "pages": [
+              "tutorials/plugins",
+              "tutorials/performance"
+            ]
+          }
+        ]
+      }
+    ],
+    "anchors": [
+      { "label": "Installation", "slug": "installation" },
+      { "label": "Configuration", "slug": "configuration" }
+    ]
+  }
 }
