@@ -1,20 +1,12 @@
 {
-  "sidebar": [
-    {
-      "label": "مقدمة",
-      "path": "/intro"
-    },
-    {
-      "label": "الإعداد",
-      "path": "/setup"
-    },
-    {
-      "label": "الميزات",
-      "path": "/features"
-    },
-    {
-      "label": "الأسئلة الشائعة",
-      "path": "/faq"
-    }
-  ]
+  "$schema": "https://mintlify.com/docs.json",
+  "theme": "mint",
+  "name": "Your Docs",
+  "colors": {
+    "primary": "#ff0000"
+  },
+  "navigation": {
+    // Your navigation structure
+  }
+  // The rest of your configuration
 }
